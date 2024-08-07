@@ -1,0 +1,7 @@
+.bn-block-content[data-is-empty-and-focused].bn-block-content[data-content-type="heading"]
+  .bn-inline-content:has(> .ProseMirror-trailingBreak:only-child)::before {
+  /* // content: "未命名文档" !important; */
+}
+.bn-block-content a{
+  text-decoration: underline!important;
+}
