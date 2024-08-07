@@ -9,15 +9,15 @@ export default function Header() {
     const otherLocale = locale === 'en' ? ['zh', '中'] : ['en', 'En'];
     const pathname:any = usePathname();
     const router = useRouter();
-    const { query } = router;
+    // const { query } = router;
     console.log('Current locale:', locale);
     console.log('Other locale:', otherLocale);
     console.log('Current pathname:', pathname);
-    console.log('Current query:', query);
+    // console.log('Current query:', query);
 
     return (
         <div>
-            <p>中英文切换头部</p>
+            <p>中英文切换头部1111111</p>
    
             <button onClick={()=>{
                 const newUrl = new URL(window.location.href);
